@@ -1171,6 +1171,7 @@ h6 {
 
 #faq #faq-list li {
   border-bottom: 1px solid #000;
+  
 }
 
 #faq #faq-list a {
@@ -1182,6 +1183,7 @@ h6 {
   line-height: 1;
   font-weight: 400;
   padding-right: 20px;
+  
 }
 
 #faq #faq-list i {
@@ -1193,14 +1195,17 @@ h6 {
 
 #faq #faq-list p {
   margin-bottom: 20px;
+  background-color: hsla(48, 98%, 52%, 0.205);
 }
 
 #faq #faq-list a.collapse {
   color: #053067;
+  
 }
 
 #faq #faq-list a.collapsed {
   color: #053067;
+  
 }
 
 #faq #faq-list a.collapsed i::before {
