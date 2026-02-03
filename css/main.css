@@ -1,0 +1,31 @@
+.marquee-container {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+}
+
+.marquee {
+   display: flex;
+   gap: 2rem;
+   animation: marquee 60s linear infinite;
+   width: -moz-max-content;
+   width: max-content;
+}
+
+.marquee-item {
+   flex-shrink: 0;
+}
+
+@keyframes marquee {
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(-50%);
+   }
+}
+
+.marquee-container:hover .marquee {
+   animation-play-state: paused;
+}
